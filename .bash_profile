@@ -20,6 +20,7 @@ linux() {
   alias du="du -h"
   alias df="df -h"
   alias hg="history | egrep"
+  alias gs="git status -s"
 }
 
 case "$MACHTYPE" in
