@@ -9,11 +9,14 @@ general() {
 
 linux() {
 
+  export HISTTIMEFORMAT="%F %T "
+
 #Aliases
   alias ll="ls -l"
   alias la="ls -la"
   alias du="du -h"
   alias df="df -h"
+  alias hg="history | egrep"
 }
 
 case "$MACHTYPE" in
